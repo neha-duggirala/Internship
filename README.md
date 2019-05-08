@@ -26,7 +26,7 @@ Every solution for a problem should be started by taking a very simple example. 
 </p>
 
 <p align="left">
-  <br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br>
 <h2> Day 3: May 8,2019</h2>
 <h3>Todays Learning:</h3>
 Appling the find contours to the .tif format image to obtain the co-ordinates of the white masks
