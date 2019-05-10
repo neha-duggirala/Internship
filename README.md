@@ -31,3 +31,13 @@ Every solution for a problem should be started by taking a very simple example. 
 <h3>Todays Learning:</h3>
 Appling the find contours to the .tif format image to obtain the co-ordinates of the white masks
 </p>
+
+
+## Day 4: May 9,2019
+### Todays Learning:
+To even out the uneven surfaces i have learned about a new module in opencv called **GaussianBlur** and understood that is uses an algorithm called Douglas-Peucker algorithm. Used different sizes of kernals to know which really fits the data.
+
+
+## Day 5: May 10,2019
+### Todays Learning:
+Digit Classification using Keras as higher level api of tensorflow.Testing the images on my own data. The accuracy of the model was 97% but when it came to own dataset which i have processed the images using the opencv tools(resizing the window, thresholding and normalizing)
