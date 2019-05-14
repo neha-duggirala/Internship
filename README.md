@@ -41,3 +41,10 @@ To even out the uneven surfaces i have learned about a new module in opencv call
 ## Day 5: May 10,2019
 ### Todays Learning:
 Digit Classification using Keras as higher level api of tensorflow.Testing the images on my own data. The accuracy of the model was 97% but when it came to own dataset which i have processed the images using the opencv tools(resizing the window, thresholding and normalizing)
+
+## Day 6: May 13, 2019
+## Todays Learning:
+The contours are scaled to fit into the layers of the maps on **QGIS**. They were correctly mapped on to the boundaries of the buildings and it was beautiful to see the output but there were a few reductant polygons formed inside the polygons.
+These can be removed using a threshould area of polygon.
+
+## Day 7: May 14, 2019
