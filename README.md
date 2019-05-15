@@ -48,3 +48,9 @@ The contours are scaled to fit into the layers of the maps on **QGIS**. They wer
 These can be removed using a threshould area of polygon.
 
 ## Day 7: May 14, 2019
+## Todays Learning:
+Contour area is given by the function cv2.contourArea() and thus the unwanted contours is removed by deciding the best threshould. **Douglas-Peucker algorithm**-It approximates a contour shape to another shape with less number of vertices depending upon the precision we specify. Thus can reduce the number of vertices and optimize the vector function.
+
+## Day 8: May15, 2019
+## Todays Implementation:
+Implemented the above algorithm.
