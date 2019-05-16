@@ -54,3 +54,7 @@ Contour area is given by the function cv2.contourArea() and thus the unwanted co
 ## Day 8: May15, 2019
 ## Todays Implementation:
 Implemented the above algorithm.
+
+## Day 8: May15, 2019
+## Todays learning:
+There is a library called **Shapely** used for geo spacial data. The function contains() returns True if there is a polygon inside a polygon and thus the redundant polygons can be removed. Due to the application of Douglas-Peucker algorithm there is usuful information lost because of the contour approximation and should be taken care of.
