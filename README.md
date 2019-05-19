@@ -51,10 +51,14 @@ These can be removed using a threshould area of polygon.
 ## Todays Learning:
 Contour area is given by the function cv2.contourArea() and thus the unwanted contours is removed by deciding the best threshould. **Douglas-Peucker algorithm**-It approximates a contour shape to another shape with less number of vertices depending upon the precision we specify. Thus can reduce the number of vertices and optimize the vector function.
 
-## Day 8: May15, 2019
+## Day 8: May 15, 2019
 ## Todays Implementation:
 Implemented the above algorithm.
 
-## Day 8: May15, 2019
+## Day 9: May 16, 2019
 ## Todays learning:
 There is a library called **Shapely** used for geo spacial data. The function contains() returns True if there is a polygon inside a polygon and thus the redundant polygons can be removed. Due to the application of Douglas-Peucker algorithm there is usuful information lost because of the contour approximation and should be taken care of.
+
+## Day 10: May 17,2019
+## Problems faced and resolving the issues:
+The **gdal** package started showing unknown errors just for the import statement in the program and nothing other than that. By the end got to realize that after installing the shapely package, it had downgraded a few dependencies for its need but that downgradation is not supported by the gdal and again after upgrading the gdal dependency everything worked fine.
