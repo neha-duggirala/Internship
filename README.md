@@ -62,3 +62,15 @@ There is a library called **Shapely** used for geo spacial data. The function co
 ## Day 10: May 17,2019
 ## Problems faced and resolving the issues:
 The **gdal** package started showing unknown errors just for the import statement in the program and nothing other than that. By the end got to realize that after installing the shapely package, it had downgraded a few dependencies for its need but that downgradation is not supported by the gdal and again after upgrading the gdal dependency everything worked fine.
+
+## Day 11: May 20,2019
+These are the beautiful outputs
+<p align="middle">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-04.png" width="200" height="200">
+  </p>
+  <p align="middle">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-20.png" width="200" height="200">
+  </p>
+  <p align="middle">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-28.png" width="200" height="200">
+  </p>
