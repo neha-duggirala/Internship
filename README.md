@@ -66,11 +66,11 @@ The **gdal** package started showing unknown errors just for the import statemen
 ## Day 11: May 20,2019
 These are the beautiful outputs
 <p align="middle">
-<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-04.png" width="200" height="200">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-04.png">
   </p>
   <p align="middle">
-<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-20.png" width="200" height="200">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-20.png">
   </p>
   <p align="middle">
-<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-28.png" width="200" height="200">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-28.png">
   </p>
