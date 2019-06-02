@@ -32,7 +32,7 @@ Every solution for a problem should be started by taking a very simple example. 
 Appling the find contours to the .tif format image to obtain the co-ordinates of the white masks
 </p>
 <p align="middle">
-<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Contours.png" width="200" height="200">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Contours.png" width="700" height="200">
   </p>
  <p>
 
