@@ -84,3 +84,21 @@ The landscape of a place in switzerland and there is a division into 3 classes
 3. City
 
 ## Day 13: May 22,2019
+The contours of the entire ground truth Label.
+<p align="middle">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Mask_full.png" width=s00 height=250>
+  </p>
+  
+ ## Day 14: May 23,2019
+ The very important point I have learnt is to train the deep learing model preprocessing of data is essential. And thus there are different steps to do so. Initially, the image dimensions are reduced by converting hem into a grayscale image.
+ <p align="middle">
+  <img src="https://github.com/neha-duggirala/Internship/blob/master/images/masked_gray.jpg" width=500 height=250>
+  </p>
+
+## Day 15: May 24,2019
+The dimensions of the image is very large and cannt be given as an input for the neural network. Thus tiling needs to be done and all the patches are stored in the folder.
+
+## Day 16: May 27,2019
+Background extraction is done from the ground truth and other image masks are created in such a way that each mask has only one object belonging to a single class.
+
+## Day 17: May 28,2019
