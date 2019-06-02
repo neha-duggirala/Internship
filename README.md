@@ -74,3 +74,13 @@ These are the beautiful outputs
   <p align="middle">
 <img src="https://github.com/neha-duggirala/Internship/blob/master/images/Screenshot%20from%202019-05-21%2020-42-28.png">
   </p>
+
+## Day 12: May 21,2019
+## New Task:
+The task given is all about **Multi-Class Segmentation.**
+The landscape of a place in switzerland and there is a division into 3 classes 
+1. Lake
+2. Green Farm
+3. City
+
+## Day 13: May 22,2019
