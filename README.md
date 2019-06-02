@@ -31,7 +31,10 @@ Every solution for a problem should be started by taking a very simple example. 
 <h3>Todays Learning:</h3>
 Appling the find contours to the .tif format image to obtain the co-ordinates of the white masks
 </p>
-
+<p align="middle">
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/Contours.png" width="200" height="200">
+  </p>
+ <p>
 
 ## Day 4: May 9,2019
 ### Todays Learning:
