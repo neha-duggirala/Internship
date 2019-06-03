@@ -105,3 +105,4 @@ The dimensions of the image is very large and cannt be given as an input for the
 Background extraction is done from the ground truth and other image masks are created in such a way that each mask has only one object belonging to a single class.
 
 ## Day 17: May 28,2019
+I have learned that we are a product based organisation and are developing a product where in which the user drops in a satellite image and then he can easily get the count of solar panels, the area under water, area under farm and several other aspects. 
