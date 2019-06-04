@@ -106,3 +106,13 @@ Background extraction is done from the ground truth and other image masks are cr
 
 ## Day 17: May 28,2019
 I have learned that we are a product based organisation and are developing a product where in which the user drops in a satellite image and then he can easily get the count of solar panels, the area under water, area under farm and several other aspects. 
+
+## Day 18-21: May 29,2019 - June 3,2019
+The steps involved in multi-class Segmentation is data preprocessing the size of a single image is **24331 X 24402** and this cannot be given as input to the neural network. The image is divided into different patches. The Mask created which has the segments of three different classes. Now patches should be derived even to the different classes.
+
+<p align="middle">
+  <img src="https://github.com/neha-duggirala/Internship/blob/master/images/Files_directory.PNG" width=300 height=250>
+  </p>
+  
+ ## Day 22: June 4,2019
+ I have faced a pecular error, **[MemoryError](https://datascience.stackexchange.com/questions/31330/memoryerror-for-np-array)** for np.array. MemoryError is exactly what it means, I have run out of memory in my 8GB RAM for my code to execute. Thus batch processing is required. This cleared my error. The very important art of writing a code is its reusability by any persont. Thus I had to sort the code into classes and functions that are required to be integrated into the pipeline.
