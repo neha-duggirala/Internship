@@ -86,7 +86,7 @@ The landscape of a place in switzerland and there is a division into 3 classes
 2. Green Farm
 3. City
 <p align="middle">
-<img src="https://github.com/neha-duggirala/Internship/blob/master/images/original.png" width=s00 height=250>
+<img src="https://github.com/neha-duggirala/Internship/blob/master/images/original.PNG" width=s00 height=250>
   </p>
   
 ## Day 13: May 22,2019
