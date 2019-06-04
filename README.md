@@ -111,7 +111,7 @@ I have learned that we are a product based organisation and are developing a pro
 The steps involved in multi-class Segmentation is data preprocessing the size of a single image is **24331 X 24402** and this cannot be given as input to the neural network. The image is divided into different patches. The Mask created which has the segments of three different classes. Now patches should be derived even to the different classes.
 
 <p align="middle">
-  <img src="https://github.com/neha-duggirala/Internship/blob/master/images/Files_directory.PNG" width=300 height=250>
+  <img src="https://github.com/neha-duggirala/Internship/blob/master/images/Files_directory.PNG" width=500 height=250>
   </p>
   
  ## Day 22: June 4,2019
