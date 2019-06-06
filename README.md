@@ -118,7 +118,7 @@ The steps involved in multi-class Segmentation is data preprocessing the size of
   </p>
   
  ## Day 22: June 4,2019
- I have faced a pecular error, **[MemoryError](https://datascience.stackexchange.com/questions/31330/memoryerror-for-np-array)** for np.array. MemoryError is exactly what it means, I have run out of memory in my 8GB RAM for my code to execute. Thus batch processing is required. This cleared my error. The very important art of writing a code is its reusability by any persont. Thus I had to sort the code into classes and functions that are required to be integrated into the pipeline.
+ I have faced a pecular error, **[MemoryError](https://datascience.stackexchange.com/questions/31330/memoryerror-for-np-array)** for np.array. MemoryError is exactly what it means, I have run out of memory in my 8GB RAM for my code to execute. Instead of using np float64 dtype I preferred using numpys dtype as uint8. This cleared my error. The very important art of writing a code is its reusability by any persont. Thus I had to sort the code into classes and functions that are required to be integrated into the pipeline.
 
 
 ## Day 23: June 5,2019
