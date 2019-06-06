@@ -36,31 +36,31 @@ Appling the find contours to the .tif format image to obtain the co-ordinates of
   </p>
  <p>
 
-## Day 4: May 9,2019
+## Day 4: May 9, 2019
 ### Todays Learning:
-To even out the uneven surfaces i have learned about a new module in opencv called **GaussianBlur** and understood that is uses an algorithm called Douglas-Peucker algorithm. Used different sizes of kernals to know which really fits the data.
+To even out the uneven surfaces I have learned about a new module in opencv called **GaussianBlur** and understood that it uses an algorithm called Douglas-Peucker algorithm. Used different sizes of kernels to know which really fits the data.
 
 
 ## Day 5: May 10,2019
 ### Todays Learning:
-Digit Classification using Keras as higher level api of tensorflow.Testing the images on my own data. The accuracy of the model was 97% but when it came to own dataset which i have processed the images using the opencv tools(resizing the window, thresholding and normalizing)
+Digit Classification using Keras as higher level API of tensorflow.Testing the images on my own data. The accuracy of the model was 97% but when it came to own dataset which I have processed the images using the opencv tools(resizing the window, thresholding and normalizing)
 
 ## Day 6: May 13, 2019
 ## Todays Learning:
 The contours are scaled to fit into the layers of the maps on **QGIS**. They were correctly mapped on to the boundaries of the buildings and it was beautiful to see the output but there were a few reductant polygons formed inside the polygons.
-These can be removed using a threshould area of polygon.
+These can be removed using a threshold area of a polygon.
 
 ## Day 7: May 14, 2019
 ## Todays Learning:
-Contour area is given by the function cv2.contourArea() and thus the unwanted contours is removed by deciding the best threshould. **Douglas-Peucker algorithm**-It approximates a contour shape to another shape with less number of vertices depending upon the precision we specify. Thus can reduce the number of vertices and optimize the vector function.
+Contour area is given by the function cv2.contourArea() and thus the unwanted contours are removed by deciding the best threshold. **Douglas-Peucker algorithm**-It approximates a contour shape to another shape with less number of vertices depending upon the precision we specify. Thus can reduce the number of vertices and optimize the vector function.
 
 ## Day 8: May 15, 2019
 ## Todays Implementation:
 Implemented the above algorithm.
 
 ## Day 9: May 16, 2019
-## Todays learning:
-There is a library called **Shapely** used for geo spacial data. The function contains() returns True if there is a polygon inside a polygon and thus the redundant polygons can be removed. Due to the application of Douglas-Peucker algorithm there is usuful information lost because of the contour approximation and should be taken care of.
+## Today's learning:
+There is a library called **Shapely** used for geospatial data. The function contains() returns True if there is a polygon inside a polygon and thus the redundant polygons can be removed. Due to the application of the Douglas-Peucker algorithm, there is useful information lost because of the contour approximation and should be taken care of.
 
 ## Day 10: May 17,2019
 ## Problems faced and resolving the issues:
@@ -102,13 +102,13 @@ The contours of the entire ground truth Label.
   </p>
 
 ## Day 15: May 24,2019
-The dimensions of the image is very large and cannt be given as an input for the neural network. Thus tiling needs to be done and all the patches are stored in the folder.
+The dimensions of the image are very large and can't be given as an input for the neural network. Thus tiling needs to be done and all the patches are stored in the folder.
 
 ## Day 16: May 27,2019
 Background extraction is done from the ground truth and other image masks are created in such a way that each mask has only one object belonging to a single class.
 
 ## Day 17: May 28,2019
-I have learned that we are a product based organisation and are developing a product where in which the user drops in a satellite image and then he can easily get the count of solar panels, the area under water, area under farm and several other aspects. 
+I have learned that we are a product based organization and are developing a product wherein which the user drops in a satellite image and then he can easily get the count of solar panels, the area under water, the area under farm and several other aspects. 
 
 ## Day 18-21: May 29,2019 - June 3,2019
 The steps involved in multi-class Segmentation is data preprocessing the size of a single image is **24331 X 24402** and this cannot be given as input to the neural network. The image is divided into different patches. The Mask created which has the segments of three different classes. Now patches should be derived even to the different classes.
@@ -117,9 +117,13 @@ The steps involved in multi-class Segmentation is data preprocessing the size of
   <img src="https://github.com/neha-duggirala/Internship/blob/master/images/Files_directory.PNG" width=500 height=250>
   </p>
   
- ## Day 22: June 4,2019
- I have faced a pecular error, **[MemoryError](https://datascience.stackexchange.com/questions/31330/memoryerror-for-np-array)** for np.array. MemoryError is exactly what it means, I have run out of memory in my 8GB RAM for my code to execute. Instead of using np float64 dtype I preferred using numpys dtype as uint8. This cleared my error. The very important art of writing a code is its reusability by any persont. Thus I had to sort the code into classes and functions that are required to be integrated into the pipeline.
+ ## Day 22: June 4, 2019
+ I have faced a peculiar error, **[MemoryError](https://datascience.stackexchange.com/questions/31330/memoryerror-for-np-array)** for np.array. MemoryError is exactly what it means, I have run out of memory in my 8GB RAM for my code to execute. Instead of using np float64 dtype I preferred using numpys dtype as uint8. This cleared my error. The very important part of writing code is its reusability by any person. Thus I had to sort the code into classes and functions that are required to be integrated into the pipeline.
 
 
 ## Day 23: June 5,2019
-Integrating the code is not an easy task and found minor bugs which becae difficult for me to find. Created a label Mask, a very important training data where each and every pixel is classified among the given three labels. Ig the pixel doenst belong to any class then its value is given as zero.
+Integrating the code is not an easy task and found minor bugs which became difficult for me to find. Created a label Mask, a very important training data where each and every pixel is classified among the given three labels. Ig the pixel doesn't belong to any class then its value is given as zero.
+
+## Day 24: June 6, 2019
+It is the last day of my internship but the learning never stops. I received very good guidance from my mentors. I promise myself to dive deeper into deep learning and continue my journey
+
